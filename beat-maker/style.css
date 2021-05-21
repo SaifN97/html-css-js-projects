@@ -50,16 +50,16 @@ svg {
 .snare-track,
 .kick-track {
   display: flex;
+  align-items: center;
+  width: 70%;
+  justify-content: space-between;
+  margin-top: 5rem;
 }
 
 .kick,
 .snare,
 .hihat {
   display: flex;
-  align-items: center;
-  width: 70%;
-  justify-content: space-between;
-  margin-top: 50% 5rem;
 }
 
 .sequencer {
@@ -85,11 +85,11 @@ svg {
   color: #fff;
   font-size: 1rem;
   cursor: pointer;
-  transition: all 1 5s ease;
+  transition: all 0.5s ease;
 }
 
 .pad {
-  transition: all 1 5s ease;
+  transition: all 0.5s ease;
 }
 
 .play {
@@ -98,11 +98,20 @@ svg {
   background: #333;
   color: #fff;
   cursor: pointer;
-  margin: top 3rem;
+  margin-top: 3rem;
 }
 
 select {
   padding: 1rem;
   font-size: 1rem;
   margin-left: 1rem;
+}
+
+@keyframes playTrack {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(1.2);
+  }
 }
