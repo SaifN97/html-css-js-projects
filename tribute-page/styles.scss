@@ -1,0 +1,83 @@
+/* reset */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  line-height: 1;
+}
+
+body,
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+body {
+  line-height: 1.3;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.125rem;
+  padding: 1.5rem;
+  background-color: #eeeeee;
+}
+section {
+  padding: 4rem 0;
+}
+//header
+.header {
+  text-align: center;
+  padding: 2rem 1rem;
+}
+
+//hero section
+.hero {
+  background-color: white;
+  padding: 2rem;
+  border-radius: 0.5rem;
+}
+
+.caption {
+  text-align: center;
+  padding-top: 2rem;
+}
+
+//info section
+.info {
+  .info-title {
+    margin-bottom: 4rem;
+    text-align: center;
+  }
+  li {
+    font-size: 0.875rem;
+    margin: 1.5rem 0;
+  }
+
+  .info-text {
+    opacity: 0.7;
+  }
+  .tribute-link {
+    margin-top: 4rem;
+    text-align: center;
+  }
+}
+//utilities
+.container {
+  padding: 0 1.5rem;
+  margin: 0 auto;
+  max-width: 40rem;
+}
